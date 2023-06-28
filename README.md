@@ -17,7 +17,7 @@ The following dependencies are used in this project:
 * Body-parser: Node.js body parsing middleware, used to parse incoming request bodies.
 
 ## Overview
-The server-side code (server.js) uses Express to handle HTTP requests. It defines two routes: a GET route for the home page and a POST route to handle form submissions. The BMI calculation is performed using the provided height and weight values. The result is then inserted into the HTML template file (index.html) and sent back to the user.
+The server-side code (calculator.js) uses Express to handle HTTP requests. It defines two routes: a GET route for the home page and a POST route to handle form submissions. The BMI calculation is performed using the provided height and weight values. The result is then inserted into the HTML template file (index.html) and sent back to the user.
 The client-side code (index.html and accompanying CSS styles) provides a simple and user-friendly interface for entering the height and weight values and displaying the result.
 
 ## Preview
