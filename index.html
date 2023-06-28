@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>BMI Calculator</title>
+    <link rel="icon" href="./favicon-32x32.png" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 40px; /* Increase padding for more spacing */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh; /* Set minimum height to 100% of the viewport height */
+            overflow: hidden; /* Hide any content that exceeds the viewport */
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 48px; /* Increase font size */
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 40px; /* Increase margin for more spacing */
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        form {
+            max-width: 600px; /* Increase maximum width */
+            width: 100%;
+            padding: 40px; /* Increase padding for more spacing */
+            background-color: #fff;
+            border-radius: 8px; /* Increase border radius */
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Increase box shadow */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        input[type="text"] {
+            width: 80%; /* Increase width */
+            padding: 20px; /* Increase padding */
+            margin: 0 auto 20px; /* Increase margin for more spacing */
+            font-size: 18px; /* Increase font size */
+            border: 2px solid #ccc; /* Increase border width */
+            border-radius: 8px; /* Increase border radius */
+            text-align: center;
+        }
+
+        button[type="submit"] {
+            width: 100%;
+            padding: 20px; /* Increase padding */
+            font-size: 18px; /* Increase font size */
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 8px; /* Increase border radius */
+            cursor: pointer;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        #result {
+            text-align: center;
+            font-size: 24px;
+            margin-top: 30px;
+        }
+
+        #result .result-value {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>BMI Calculator</h1>
+    <form action="/" method="post">
+        <input type="text" name="height" placeholder="Height (m)">
+        <input type="text" name="weight" placeholder="Weight (kg)">
+        <button type="submit" name="submit">Calculate BMI</button>
+    </form>
+    <p id="result"></p>
+</body>
+
+</html>
