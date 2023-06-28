@@ -1,5 +1,5 @@
 # BMI-Calculator
-This is a simple BMI (Body Mass Index) calculator implemented using Node.js and Express framework. It calculates the BMI based on the user's height and weight input and displays the result on a web page.
+This is a simple BMI (Body Mass Index) calculator implemented using **Node.js** and **Express** framework. It calculates the BMI based on the user's height and weight input and displays the result on a web page.
 
 ## Installation
 1. Make sure you have Node.js and npm (Node Package Manager) installed on your system.
